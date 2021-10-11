@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+<body  align="center" style="background-color:green;">
+<head>
+  <meta charset="UTF-8">
+  <title>Recommendation System</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        font-family: 'Tangerine', serif;
+        font-size: 28px;
+      }
+    </style>
+
+
+</head>
+<body>
+
+
+    <div class="products">
+        <h2><u>Recommendations:</u></h2>
+        <p>Showing results for: {{ user_name }}</p>
+        <table class="movie_table" align="center">
+            <tr>
+                <th>top 5 Product Name</th>
+                
+            </tr>
+            <tbody class="table_body">
+                <tr>
+                    <td>{{ product_name[0] }}</td>
+                    
+                </tr>
+                <tr>
+                    <td>{{ product_name[1] }}</td>
+                    
+                </tr>
+                <tr>
+                    <td>{{ product_name[2] }}</td>
+                    
+                </tr>
+                <tr>
+                    <td>{{ product_name[3] }}</td>
+                    
+                </tr>
+                <tr>
+                    <td>{{ product_name[4] }}</td>
+                    
+                </tr>
+                
+            </tbody>
+        </table>
+        <br>
+        
+</script>
+
+</body>
+</html>
