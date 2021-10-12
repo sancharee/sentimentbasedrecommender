@@ -7,7 +7,7 @@ df=pd.read_csv("sample30.csv")
 # Load the models from the file
 recom_df = pd.read_pickle('models/item-item_recommender.pkl')
 vectorizer = pickle.load(open("./models/feature_model.pkl", "rb"))
-with open('models/xgboost_model.pkl' , 'rb') as pickle_file:
+with open('models/randomforest_model.pkl' , 'rb') as pickle_file:
     classif_model = pickle.load(pickle_file)
 
 #get recommendations for top 20 products per user
