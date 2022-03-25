@@ -6,9 +6,9 @@ It finds similar users and gives them recommendations based on what other people
   ### Item Based Recommendation System
  It finds similarity patterns between items and recommends them to users 
  
- In this project we have 
-   -first performed a sentiment analysis of user reviews on multiple products.This is done to extract the polarity of reviews and classify them as positive or negative.
-   -created a product recommendation system on the ratings given by users
+ In this project we have <br> 
+   -first performed a sentiment analysis of user reviews on multiple products.This is done to extract the polarity of reviews and classify them as positive or negative.<br>
+   -created a product recommendation system on the ratings given by users<br>
    -improved the recommendation system using the sentiment classification of user reviews
 
    
