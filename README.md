@@ -7,9 +7,13 @@ It finds similar users and gives them recommendations based on what other people
  It finds similarity patterns between items and recommends them to users 
  
  In this project we have <br> 
-   -first performed a sentiment analysis of user reviews on multiple products.This is done to extract the polarity of reviews and classify them as positive or negative.<br>
-   -created a product recommendation system on the ratings given by users<br>
-   -improved the recommendation system using the sentiment classification of user reviews
+1. Performed a sentiment analysis of user reviews on multiple products to extract the polarity of reviews and classify them as positive or negative.
+2. TF-IDF vectorization has been used for feature extraction after removal of stop words and lemmatization using WordNet
+3. Logistic Regression, Random Forest Classifier and XGBoost Models were built and performances evaluated based on F1 score
+4. Created an item-item based product recommendation system on the ratings given by users
+5. Improved the recommendation system using the sentiment classification of user reviews such that it would give 5 best products based on the sentiments of 20 recommended product reviews
+6. Created a web application for the recommendation system using Flask framework
+7. Deploy the web application using Heroku
 
    
    
